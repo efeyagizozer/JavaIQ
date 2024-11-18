@@ -16,4 +16,15 @@ public class IQ11_MaxPossibleValue {
             Given N = -999, the function should return -5999
      */
 
+    public static void main(String[] args) {
+
+
+
+
+    }
+  // outside of the main method we will create a custom method
+
+
+
 }
+
