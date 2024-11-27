@@ -4,6 +4,9 @@ public class IQ01_Armstrong {
 
     public static void main(String[] args) {
 
+
+
+
     }
 
     /*
@@ -41,6 +44,9 @@ public class IQ01_Armstrong {
             try stg
 
      */
+
+
+
 
 
 }
