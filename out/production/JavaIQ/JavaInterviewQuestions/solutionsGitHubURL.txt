@@ -1,0 +1,1 @@
+https://github.com/Cydeo-B36/java-coding-iq/blob/master/src/array/TriplesArray.java
