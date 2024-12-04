@@ -1,4 +1,4 @@
-package Java.Ifs;
+package Java.Topics.Ifs;
 
 public class IfTalha {
 

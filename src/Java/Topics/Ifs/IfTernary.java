@@ -1,4 +1,4 @@
-package Java.Ifs;
+package Java.Topics.Ifs;
 
 public class IfTernary {
     public static void main(String[] args) {
