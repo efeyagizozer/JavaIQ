@@ -4,7 +4,9 @@ public class IQ03_ConsecutiveNumbers {
     /*
         Consecutive Numbers
 
-        Create a method to print consecutive numbers from 1 to N, each on a separate line. However, any number divisible by 2, 3 or 5 should be replaced by the word Codility, Test or Coders respectively. If a number is divisible by more than one of the numbers it should be replaced by a concatenation of the respective words.
+        Create a method to print consecutive numbers from 1 to N, each on a separate line.
+        However, any number divisible by 2, 3 or 5 should be replaced by the word Codility, Test or Coders respectively.
+        If a number is divisible by more than one of the numbers it should be replaced by a concatenation of the respective words.
         The given N value will be a positive integer.
 
             parameter: int
