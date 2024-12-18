@@ -1,7 +1,10 @@
-package JavaInterviewQuestions.JavaCodeIQ.numericIQ;
+package Java.JavaEmirSolution;
 
-public class IQ05_DivisibleBy3_5_15 {
-    /*
+public class Three_Five_Fifteen {
+
+
+    public static void main(String[] args) {
+        /*
         Divisible By 3, 5 & 15
 
         Create a program that will print all the numbers divisible by 3, 5, and 15 in the range from 1 to the given N number. Print the grouped sections separately
@@ -15,20 +18,7 @@ public class IQ05_DivisibleBy3_5_15 {
      */
 
 
-    public static void main(String[] args) {
 
 
-
-
-
-
-        int N = 100;
-
-        for(int i=0; i<N; i++) {
-            if(i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
-                System.out.print(i + " ");
-            }
-        }
     }
-
 }
