@@ -1,0 +1,131 @@
+1. toString()
+Dizi elemanlarını bir String olarak döndürür.
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3};
+System.out.println(Arrays.toString(arr));
+// Çıktı: [1, 2, 3]
+2. sort()
+Diziyi artan sırada sıralar.
+
+java
+Kodu kopyala
+int[] arr = {3, 1, 2};
+Arrays.sort(arr);
+System.out.println(Arrays.toString(arr));
+// Çıktı: [1, 2, 3]
+3. binarySearch()
+Sıralı bir dizide bir öğenin indeksini bulur. Öğeyi bulamazsa negatif bir değer döndürür.
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3, 4, 5};
+int index = Arrays.binarySearch(arr, 3);
+System.out.println(index);
+// Çıktı: 2
+4. equals()
+İki diziyi eleman-eleman karşılaştırır ve eşitlik durumunu döndürür.
+
+java
+Kodu kopyala
+int[] arr1 = {1, 2, 3};
+int[] arr2 = {1, 2, 3};
+System.out.println(Arrays.equals(arr1, arr2));
+// Çıktı: true
+5. copyOf()
+Bir dizinin belirtilen uzunluğa kadar bir kopyasını oluşturur.
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3};
+int[] newArr = Arrays.copyOf(arr, 5);
+System.out.println(Arrays.toString(newArr));
+// Çıktı: [1, 2, 3, 0, 0]
+6. copyOfRange()
+Dizinin belirli bir alt aralığının kopyasını oluşturur.
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3, 4, 5};
+int[] subArray = Arrays.copyOfRange(arr, 1, 4);
+System.out.println(Arrays.toString(subArray));
+// Çıktı: [2, 3, 4]
+7. fill()
+Dizinin tüm elemanlarını belirtilen bir değerle doldurur.
+
+java
+Kodu kopyala
+int[] arr = new int[5];
+Arrays.fill(arr, 7);
+System.out.println(Arrays.toString(arr));
+// Çıktı: [7, 7, 7, 7, 7]
+8. hashCode()
+Bir dizinin hash kodunu döndürür.
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3};
+System.out.println(Arrays.hashCode(arr));
+// Çıktı: (dizinin hash kodu)
+9. deepEquals()
+Çok boyutlu dizileri (nested arrays) karşılaştırır.
+
+java
+Kodu kopyala
+int[][] arr1 = {{1, 2}, {3, 4}};
+int[][] arr2 = {{1, 2}, {3, 4}};
+System.out.println(Arrays.deepEquals(arr1, arr2));
+// Çıktı: true
+10. deepToString()
+Çok boyutlu dizilerin içeriğini bir String olarak döndürür.
+
+java
+Kodu kopyala
+int[][] arr = {{1, 2}, {3, 4}};
+System.out.println(Arrays.deepToString(arr));
+// Çıktı: [[1, 2], [3, 4]]
+11. asList()
+Bir diziyi listeye dönüştürür (sabit uzunlukta liste).
+
+java
+Kodu kopyala
+String[] arr = {"A", "B", "C"};
+List<String> list = Arrays.asList(arr);
+System.out.println(list);
+// Çıktı: [A, B, C]
+12. parallelSort()
+Diziyi paralel bir şekilde sıralar (büyük dizilerde daha hızlıdır).
+
+java
+Kodu kopyala
+int[] arr = {5, 3, 1, 4, 2};
+Arrays.parallelSort(arr);
+System.out.println(Arrays.toString(arr));
+// Çıktı: [1, 2, 3, 4, 5]
+13. stream()
+Bir diziyi bir Stream'e dönüştürür (Java 8+).
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3};
+Arrays.stream(arr).forEach(System.out::println);
+// Çıktı: 1 2 3
+14. setAll()
+Lambda kullanarak dizi elemanlarını ayarlar (Java 8+).
+
+java
+Kodu kopyala
+int[] arr = new int[5];
+Arrays.setAll(arr, i -> i * 2);
+System.out.println(Arrays.toString(arr));
+// Çıktı: [0, 2, 4, 6, 8]
+15. spliterator()
+Bir dizinin Spliterator'unu döndürür (paralel işlemler için).
+
+java
+Kodu kopyala
+int[] arr = {1, 2, 3};
+Spliterator.OfInt spliterator = Arrays.spliterator(arr);
+spliterator.forEachRemaining(System.out::println);
+// Çıktı: 1 2 3
