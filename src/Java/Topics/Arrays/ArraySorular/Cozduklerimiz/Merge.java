@@ -20,52 +20,6 @@ public class Merge {
         System.out.println("arrSum = " + Arrays.toString(arrSum));
 
 
-        for (int i = 0; i < arr2.length; i++) {
-            if (arrSum[k].equals(arr2[i])) {
-                k++;
-            }
-
-            System.out.println("arrSum = " + Arrays.toString(arrSum));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     /*   for(int i=0; arr1.length>i ; i++){
-            arr3[k]=arr1[i];
-            k++;
-        }
-
-        for(int i=0 ; arr2.length>i ; i++){
-            arr3[k]=arr2[i];
-            k++;
-        }
-
-
-        System.out.println(Arrays.toString(arr3));
-
-
-*/
-
-
-        }
     }
 
 

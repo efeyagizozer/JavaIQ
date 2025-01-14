@@ -1,4 +1,4 @@
-package Tekrar.Tekrar.Array.Task;
+package Java.Topics.Arrays.ArraySorular.Task;
 
 import java.util.Arrays;
 
